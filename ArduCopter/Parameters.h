@@ -136,6 +136,7 @@ public:
         k_param_throttle_filt,
         k_param_throttle_behavior,
         k_param_pilot_takeoff_alt, // 64
+        k_param_npnt,
 
         // 65: AP_Limits Library
         k_param_limits = 65,            // deprecated - remove
@@ -391,6 +392,7 @@ public:
     AP_Int16        rtl_altitude;
     AP_Int16        rtl_speed_cms;
     AP_Float        rtl_cone_slope;
+    AP_Float        npnt;
 #if RANGEFINDER_ENABLED == ENABLED
     AP_Float        rangefinder_gain;
 #endif
