@@ -61,7 +61,8 @@ bool AP_Arming_Copter::run_pre_arm_checks(bool display_failure)
         & motor_checks(display_failure)
         & pilot_throttle_checks(display_failure)
         & oa_checks(display_failure)
-        & gcs_failsafe_check(display_failure) &
+        & gcs_failsafe_check(display_failure) 
+        & g.npnt &
         AP_Arming::pre_arm_checks(display_failure);
 }
 
