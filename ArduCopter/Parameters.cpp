@@ -56,6 +56,7 @@ const AP_Param::Info Copter::var_info[] = {
     // @Values: 255:Mission Planner and DroidPlanner, 252: AP Planner 2
     // @User: Advanced
     GSCALAR(sysid_my_gcs,   "SYSID_MYGCS",     255),
+    GSCALAR(npnt, "NPNT", NPNT_DEFAULT),
 
     // @Param: PILOT_THR_FILT
     // @DisplayName: Throttle filter cutoff
