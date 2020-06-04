@@ -83,6 +83,10 @@
  # define RANGEFINDER_ENABLED ENABLED
 #endif
 
+#ifndef NPNT_DEFAULT
+ # define NPNT_DEFAULT      0     // default value for my new parameter
+#endif
+
 #ifndef RANGEFINDER_HEALTH_MAX
  # define RANGEFINDER_HEALTH_MAX 3          // number of good reads that indicates a healthy rangefinder
 #endif
